@@ -1,2 +1,2 @@
-BOT_TOKEN = "8671346544:AAFyth3tTqKSLbsyBkg_gGygZyCv6OJ6zr0"
+BOT_TOKEN = "ADD_BOT_TOKEN_HERE"
 MCP_URL = "http://localhost:8000"
