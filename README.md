@@ -218,10 +218,9 @@ pip install -r requirements.txt
 4. Copy the generated BOT TOKEN
 
 ---
+## Replace token telegram_bot\config.py file
 
-## Create `.env` File
-
-```env
+```
 BOT_TOKEN=YOUR_BOT_TOKEN
 MCP_URL=http://localhost:8000
 ```
