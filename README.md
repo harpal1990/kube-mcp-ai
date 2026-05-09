@@ -84,43 +84,6 @@ AI Response
 
 ---
 
-# 📁 Folder Structure
-
-```text
-kube-mcp-ai/
-│
-├── app/
-│   ├── main.py
-│   ├── tools/
-│   │   ├── k8s_tools.py
-│   │   ├── ai_tools.py
-│   │   ├── analyzer.py
-│   │
-│   ├── core/
-│   │   ├── config.py
-│   │   ├── logger.py
-│   │
-│   ├── schemas/
-│   │   ├── request.py
-│   │   ├── response.py
-│
-├── telegram_bot/
-│   ├── bot.py
-│   ├── config.py
-│
-├── runbooks/
-│   ├── crashloop.yaml
-│   ├── imagepull.yaml
-│
-├── scripts/
-│   ├── setup_kind.sh
-│
-├── requirements.txt
-├── .env
-├── README.md
-```
-
----
 
 # 🛠️ Requirements
 
