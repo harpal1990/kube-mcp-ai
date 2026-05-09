@@ -174,44 +174,22 @@ ollama run llama3
 
 ---
 
-# 🚀 Step 5 – Clone Project
-
-```bash
+#1. Clone Repo
 git clone https://github.com/your-username/kube-mcp-ai.git
 cd kube-mcp-ai
-```
+2. Setup KIND Cluster
+kind create cluster --name mcp-cluster
+kubectl get nodes
 
----
 
-# 🚀 Step 6 – Create Python Virtual Environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-# 🚀 Step 7 – Install Dependencies
-
-```bash
+3. Run Ollama
+ollama run llama3
+4. Install Dependencies
 pip install -r requirements.txt
-```
-
----
-
-# 📦 requirements.txt
-
-```text
-fastapi
-uvicorn
-ollama
-python-telegram-bot
-requests
-python-dotenv
-```
-
----
+5. Start MCP Server
+uvicorn app.main:app --reload
+6. Start Telegram Bot
+python telegram_bot/bot.py
 
 # 🚀 Step 8 – Configure Telegram Bot
 
